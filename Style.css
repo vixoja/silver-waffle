@@ -1,0 +1,18 @@
+/*starting in good one default*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    background-color: #022;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(6, auto);
+}
+
+
+
