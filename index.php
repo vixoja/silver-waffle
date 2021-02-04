@@ -12,7 +12,7 @@
     <title>Acces_Portal_Web</title>
 </head>
 <body>
-<!--The container and navegation bar. Is still in develop-->
+<!--The container and navegation bar are in development-->
     <div class="container">
         <div class="navbar">
             <ul>
