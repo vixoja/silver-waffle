@@ -1,0 +1,77 @@
+/*Make default settings*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    background: url(img/mountain.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*center form on our screen*/
+.container{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 665px;
+}
+
+/*within our form we center again*/
+.container__form{   
+    height: 200px;
+    display: grid;
+}
+
+/*here we added some beauty things for our input*/
+.container__form__input{
+    display: grid;
+    padding: 5px;
+    margin: 5px;
+    justify-items: center;
+    width: 90%;
+    border-radius: 0;
+    background: 0;
+    border: none;
+    border-bottom: 2px solid rgb(30, 255, 48);
+}
+
+/*the button too*/
+.container__form__button{
+    display: block;
+    border-radius: 0;
+    background: rgb(6, 201, 6);
+    border: greenyellow;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/*we modificate logo a little bit*/
+.container__logo{
+    display: grid;
+    justify-items: center;
+}
+
+/*the img turn more little and with less square border */
+img{
+    border-radius: 5%;
+    height: 70%;
+}
+
+/*the ancle turned more centered and taking more black*/
+.container__form__a{
+    display: block;
+    text-align: center;
+    color: #0009;
+}
+
+/*the border button when is selected is no more*/
+.container__form__button:active{
+    border-style: 0;
+}
+
+/*we added a yellow effect when we pass cursor over the button*/
+.container__form__button:hover{
+    background: greenyellow
+}
