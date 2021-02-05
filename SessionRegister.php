@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--Here are the style.css and two link from Latos font --> 
+    <!--Here are the style.css and two link from Latos font --> 
     <link rel="stylesheet" href="Style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
@@ -12,10 +12,10 @@
     <title>Acces_Portal_Web/title>
 </head>
 <body>
-<!--The container -->
+    <!--The container -->
     <div class="container">
 
-<!--The user make his nickname and password,so then send his information to Pass_Verify.php -->
+    <!--The user make his nickname and password,so then send his information to Pass_Verify.php -->
         <div class="Registerform">
             <h2>Making an account:</h2>
 
@@ -31,6 +31,6 @@
 
         </div>
     </div>
-<!--End of container -->        
+    <!--End of container -->        
 </body>
 </html>

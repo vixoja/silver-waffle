@@ -1,10 +1,10 @@
 <?php
 
-//The session parameter turn void of data
+    //The session parameter turn void of data
     session_start();    
     $_SESSION['admin'] = array();
 
-//This shit destroyes your cookies
+    //This shit destroyes your cookies
     if (ini_get("session.get_cookies")) {
         $params = session_get_cookie_params();
         setcookie(session_name(), '',time() - 42000,
@@ -12,10 +12,10 @@
             $params["secure"], $params["httponly"]);
     }
 
-// Here the session is killed by me, sorry about that :c 
+    // Here the session is killed by me, sorry about that :c 
     session_destroy();
 
-//Now we go back at the beggining
+    //Now we go back at the beggining
     header('Location:Login.php');
 
 ?>
