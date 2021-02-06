@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: url(img/mountain.jpg) center center scroll;
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    height: 60px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}   
+
+.nav_item a{
+    color: #fff;
+}
+
+.tittle{
+    display: flex;
+    flex-direction: column;
+    color: #555;
+    text-shadow: 1px 1px 1px #000;
+    align-items: center;
+}
+
+.tittle__h1{
+    height: auto;    
+    margin: auto;
+    padding-top: 100px;
+    font-size: 30px;
+    text-shadow: #000;
+}
+
+.tittle__button button{
+    border-radius: 0;
+    background: rgb(90, 255, 42);
+    border: 5px solid rgb(157, 255, 0);
+    align-self: center;
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800px;
+    margin-top: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    margin-top: 25%;
+}
+
+.main__info{
+    margin-top: 100px;
+    color: #fff;
+}
+
+.nav_item{    
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;    
+}
+
+.nav_item:hover{/*listo*/
+    border-bottom: 5px solid #e23;
+}
+
+.nav_logo{/*listo*/
+    margin-right: auto;
+    padding: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #fff;
+    font-weight: 800;
+}
